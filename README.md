@@ -10,4 +10,6 @@ ML: xarray, pandas, numpy API: flask Данные: с kaggle - https://www.kaggl
 
 user (int) - user ID покупателя
 
-date (text) - дата для предсказания в формате "YYYY-mm-DD HH:MM:SS" ("2020-09-06 23:45:45")
+time (text) - дата для предсказания в формате "YYYY-mm-DD HH:MM:SS" ("2020-09-06 23:45:45")
+
+Вывод: ID товаров, предполагаемых к покупке в заданное время.
